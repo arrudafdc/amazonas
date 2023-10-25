@@ -29,7 +29,7 @@ function Header() {
               <a href="">Produtos</a>
             </li>
             <li>
-              <a href="">Contato</a>
+              <a href="">Locais</a>
             </li>
           </ul>
         </nav>

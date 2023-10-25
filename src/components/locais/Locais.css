@@ -1,0 +1,60 @@
+.locais-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin-bottom: 10rem;
+}
+
+.locais-title {
+  font-size: 3rem;
+  font-weight: 400;
+  margin-bottom: 3rem;
+}
+
+.locais-container img {
+  margin-bottom: 1rem;
+}
+
+.locais-container h3 {
+  font-weight: 400;
+}
+
+.locais-container p {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.locais-img-container {
+  position: relative;
+}
+
+.btn-local-1,
+.btn-local-2 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  border: none;
+  display: none;
+  cursor: pointer;
+  background: #003826;
+  color: #fff;
+}
+
+.locais-img-container:hover .btn-local-1,
+.locais-img-container:hover .btn-local-2 {
+  display: block;
+}
+
+@media (max-width: 900px) {
+  .locais-title {
+    font-size: 2.5rem;
+  }
+
+  .locais-container {
+    grid-template-columns: 1fr;
+  }
+
+  .locais-img-container img {
+    width: 100%;
+  }
+}

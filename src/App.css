@@ -6,7 +6,6 @@
 
 body {
   margin: 0;
-  color: #333;
   --type-first: "Poppins", Georgia, sans-serif;
   font-family: var(--type-first);
   overflow-x: hidden;
@@ -41,7 +40,6 @@ input {
   display: block;
   font-size: 1rem;
   font-family: var(--type-first);
-  color: #333;
 }
 
 a {

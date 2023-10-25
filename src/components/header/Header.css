@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 8rem;
+  height: 5.5rem;
 }
 
 #nav {
@@ -12,12 +12,12 @@
 
 #nav a {
   color: #333;
-  font-weight: 500;
   display: block;
+  font-size: 1.1rem;
 }
 
 #nav a:hover {
-  color: #1e824c;
+  color: #077e58;
 }
 
 .nav-btn {
@@ -30,10 +30,8 @@
     cursor: pointer;
     border: none;
     background: none;
-    position: absolute;
-    z-index: 10000;
-    right: 1rem;
-    top: 3.5rem;
+    position: relative;
+    z-index: 1000;
   }
 
   .hamb {
@@ -75,8 +73,9 @@
     width: 0;
     padding: 0 1rem;
     height: 100vh;
-    background: #1e824c;
+    background: #003826;
     transition: 0.6s;
+    z-index: 100;
   }
 
   #nav.nav-active {
@@ -92,6 +91,6 @@
   }
 
   #nav a:hover {
-    color: #333;
+    color: #000;
   }
 }

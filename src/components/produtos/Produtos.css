@@ -1,0 +1,31 @@
+.produtos-bg {
+  background: #25d366;
+  color: #003826;
+}
+
+.produtos {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  margin-bottom: 8rem;
+}
+
+.produtos-title {
+  font-size: 3rem;
+  font-weight: 400;
+  margin-bottom: 3rem;
+}
+
+.produtos ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, max-content));
+  gap: 3rem 5rem;
+}
+
+.produtos h3,
+.produto-icon {
+  margin-bottom: 1rem;
+}
+
+.produto-icon {
+  font-size: 2rem;
+}

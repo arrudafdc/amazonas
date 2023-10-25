@@ -1,0 +1,28 @@
+.footer-bg {
+  border-top: 2px solid #e8e8e8;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.footer p {
+  margin-top: 3rem;
+}
+
+.footer h3 {
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 900px) {
+  .footer {
+    display: block;
+  }
+
+  .footer img {
+    margin-bottom: 3rem;
+  }
+}
