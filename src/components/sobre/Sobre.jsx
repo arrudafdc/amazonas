@@ -11,7 +11,11 @@ function Sobre() {
           em fornecer assistência personalizada aos seus clientes, ajudando-os a
           escolher os materiais ideais para seus projetos específicos.
         </p>
-        <a href="#">
+        <a
+          rel="noopener noreferrer"
+          target="_blank"
+          href="https://api.whatsapp.com/send?phone=5582988872301"
+        >
           <button className="btn-contato">
             Entre em contato
             <BsWhatsapp className="zap" />

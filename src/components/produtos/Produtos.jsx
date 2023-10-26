@@ -10,7 +10,7 @@ function Produtos() {
   return (
     <article id="produtos" className="produtos-bg">
       <div className=" produtos container">
-        <h2 className="produtos-title">Nossos Produtos</h2>
+        <h2 className="produtos-title">Principais Produtos</h2>
         <ul>
           <li>
             <PiToiletPaperDuotone className="produto-icon" />

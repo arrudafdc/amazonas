@@ -44,6 +44,14 @@
 }
 
 @media (max-width: 900px) {
+  .sobre-title {
+    font-size: 2.5rem;
+  }
+
+  .sobre-text {
+    font-size: 1rem;
+  }
+
   .sobre {
     flex-direction: column;
   }
