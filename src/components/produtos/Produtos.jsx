@@ -8,7 +8,7 @@ import { LuHammer } from "react-icons/lu";
 
 function Produtos() {
   return (
-    <article className="produtos-bg">
+    <article id="produtos" className="produtos-bg">
       <div className=" produtos container">
         <h2 className="produtos-title">Nossos Produtos</h2>
         <ul>

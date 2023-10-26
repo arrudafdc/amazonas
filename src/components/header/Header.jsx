@@ -10,6 +10,10 @@ function Header() {
     else document.body.classList.remove("body-active");
   }, [active]);
 
+  function closeMobile() {
+    if (window.innerWidth <= 900) setActive(!active);
+  }
+
   return (
     <div>
       <header id="header" className="container">
@@ -22,14 +26,14 @@ function Header() {
             <span className="hamb"></span>
           </button>
           <ul id="nav" className={active ? "nav-active" : ""}>
-            <li>
-              <a href="">Sobre</a>
+            <li onClick={closeMobile}>
+              <a href="#sobre">Sobre</a>
             </li>
-            <li>
-              <a href="">Produtos</a>
+            <li onClick={closeMobile}>
+              <a href="#produtos">Produtos</a>
             </li>
-            <li>
-              <a href="">Locais</a>
+            <li onClick={closeMobile}>
+              <a href="#locais">Locais</a>
             </li>
           </ul>
         </nav>

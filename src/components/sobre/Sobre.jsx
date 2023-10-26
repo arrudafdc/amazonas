@@ -3,7 +3,7 @@ import { BsWhatsapp } from "react-icons/bs";
 
 function Sobre() {
   return (
-    <section className="sobre container">
+    <section id="sobre" className="sobre container">
       <h2 className="sobre-title">Produtos para tudo e todos. </h2>
       <div className="sobre-text-container">
         <p className="sobre-text">
